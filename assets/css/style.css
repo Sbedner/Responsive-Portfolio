@@ -1,0 +1,148 @@
+h1{
+    font-weight:bold;
+    margin-top:3%;
+}
+
+h2{
+    font-weight:bold;
+    color:#4aaaa5;
+    font-size:30px;
+}
+
+p{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:17px;
+    color: #777777;
+}
+
+button {
+    font-size:11pt;
+    padding: 12px;
+    background-color:#4aaaa5;
+    color:white;
+}
+
+td {
+    padding:40px;
+    align-items: center;    
+}
+
+li{
+    display:inline;
+    margin-right:8%;
+    float:right;
+    color: #777777;
+    margin-top:2%;
+    overflow: hidden;
+    font-size:18px;
+}
+.pphoto{
+    float:left;
+    margin: 10px;
+}
+
+.blocks{
+    display:inline-block;
+}
+/* CONTAIANERS FOR PORTFOLIO TABLE POSITIONING */
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.table-img {
+}
+    
+.table-caption {
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  width:100%;
+  height:20%;
+  background-color: #4aaaa5;
+  transform: translate(-50%, -50%);
+}
+
+body {
+    background-image:url("../images/whitewall.png");
+}
+
+header {
+    position:fixed;
+    height: 60px;
+    top:0;
+    width: 270px;
+    margin-left: 15%;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 25pt;
+    text-align: center;
+    float:left;
+    border:1px solid #cccccc;
+    z-index: 2;
+    overflow:hidden;
+
+}
+
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    height:60px;
+    background-color: white;
+    z-index:1;
+    border-bottom: 1px solid #cccccc;
+}
+
+article{
+    margin-top:8%;
+    padding:2%;  
+    height: auto;
+    width: 650px;
+    margin-left: 15%;
+    display: left;
+    background-color:white;
+    float:left;
+    text-align: left;
+    line-height: 20pt;
+    border: 1px solid #777777;
+    color: #777777;
+    clear:both;
+   
+}
+
+aside{
+    font-weight:bold;
+    margin-top:8%;
+    margin-right:10%;
+    padding:2%;  
+    height: auto;
+    width: 270px;
+    color:#4aaaa5;
+    font-size:23px;
+    text-align: center;
+    background-color: white;
+    float:right;
+    border: 1px solid #777777;
+}
+
+footer{
+    border-top-color: #9fe7e4;
+    border-top-width:10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #666666;
+    color: white;
+    font-size: 12pt;
+    text-align: center;
+    border-top: 10px solid #4aaaa5;        
+}
+
